@@ -7,7 +7,7 @@ import './App.css'
  * shows the file EXISTS!
  */
 //  import '@test/ui/dist/styles.css';
-import 'node_modules/@test/ui/dist/styles.css'; // <-- doesn't work
+// import 'node_modules/@test/ui/dist/styles.css'; // <-- doesn't work
 // import '/node_modules/@test/ui/dist/styles.css'; // <-- works! 
 // import './node_modules/@test/ui/dist/styles.css'; /// <--- doesn't work!
 
