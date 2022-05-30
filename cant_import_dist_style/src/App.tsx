@@ -3,13 +3,13 @@ import logo from './logo.svg'
 import './App.css'
 /**
  * only one of the improts will work!
- * but cat node_modules/@test/ui/dist/styles.css 
+ * but cat node_modules/@test/ui/output/styles.css 
  * shows the file EXISTS!
  */
-//  import '@test/ui/dist/styles.css';
-// import 'node_modules/@test/ui/dist/styles.css'; // <-- doesn't work
-// import '/node_modules/@test/ui/dist/styles.css'; // <-- works! 
-// import './node_modules/@test/ui/dist/styles.css'; /// <--- doesn't work!
+//  import '@test/ui/output/styles.css';
+// import 'node_modules/@test/ui/output/styles.css'; // <-- doesn't work
+import '/node_modules/@test/ui/output/styles.css'; // <-- works! 
+// import './node_modules/@test/ui/output/styles.css'; /// <--- doesn't work!
 
 function App() {
   const [count, setCount] = useState(0)

@@ -1,9 +1,9 @@
 # can't import styles
 
 ```
-// import 'node_modules/@test/ui/dist/styles.css'; // <-- doesn't work
-import '/node_modules/@test/ui/dist/styles.css'; // <-- works! 
-// import './node_modules/@test/ui/dist/styles.css'; /// <--- doesn't work!
+// import 'node_modules/@test/ui/output/styles.css'; // <-- doesn't work
+import '/node_modules/@test/ui/output/styles.css'; // <-- works! 
+// import './node_modules/@test/ui/output/styles.css'; /// <--- doesn't work!
 ```
 
 1. pull repo
