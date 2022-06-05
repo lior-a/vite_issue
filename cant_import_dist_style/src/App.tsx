@@ -6,9 +6,10 @@ import './App.css'
  * but cat node_modules/@test/ui/output/styles.css 
  * shows the file EXISTS!
  */
+// import '/node_modules/@test/ui/output/styles.css'; // <-- works! 
+import '@test/ui/output/styles.css';
 //  import '@test/ui/output/styles.css';
 // import 'node_modules/@test/ui/output/styles.css'; // <-- doesn't work
-import '/node_modules/@test/ui/output/styles.css'; // <-- works! 
 // import './node_modules/@test/ui/output/styles.css'; /// <--- doesn't work!
 
 function App() {
